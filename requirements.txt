@@ -1,11 +1,10 @@
 python_version == 3.10.13
 
-streamlit
-librosa
-numpy
-tensorflow
-scikit-learn
-matplotlib
+streamlit==1.28.2
+librosa==0.10.0.post2
+numpy==1.23.5
+tensorflow==2.11.0
 soundfile
+matplotlib
+scikit-learn
 scipy
-pydub
