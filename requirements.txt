@@ -1,7 +1,7 @@
 streamlit==1.44.1
 librosa==0.10.2.post1
-numpy==1.26.4
-tensorflow==2.19.0
+numpy>=1.23.5,<1.27.0
+tensorflow-cpu==2.19.0
 soundfile==0.13.0
 matplotlib==3.6.3
 scikit-learn==1.6.1
