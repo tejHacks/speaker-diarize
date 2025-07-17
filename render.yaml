@@ -3,7 +3,7 @@ services:
     name: speaker-diarize
     env: python
     plan: free
-    buildCommand: "pip install --upgrade pip setuptools wheel && pip install -r requirements.txt"
+    buildCommand: "pip install --upgrade pip setuptools wheel && pip install -r requirements.txt --timeout 300"
     startCommand: "streamlit run app.py"
     repo: https://github.com/tejHacks/speaker-diarize
     branch: main
