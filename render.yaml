@@ -7,4 +7,4 @@ services:
     startCommand: "streamlit run app.py"
     repo: https://github.com/tejHacks/speaker-diarize
     branch: main
-    runtime: python3.11
+    runtime: python3.12
